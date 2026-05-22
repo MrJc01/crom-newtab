@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "CROM New Tab",
+  "version": "1.1.0",
+  "description": "Sua New Tab focada em Autonomia e Praticidade Técnica, baseada na estética e filosofia do CROM.",
+  "permissions": [
+    "topSites",
+    "storage",
+    "history"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "48": "assets/icons/icon-48.png",
+    "128": "assets/icons/icon-128.png"
+  },
+  "offline_enabled": true
+}
